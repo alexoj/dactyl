@@ -52,7 +52,7 @@ var Editor = Module("editor", XPCOM(Ci.nsIEditActionListener, ModuleBase), {
         }, this);
     },
 
-    defaultRegister: "*+",
+    defaultRegister: "+",
 
     selectionRegisters: {
         "*": "selection",
